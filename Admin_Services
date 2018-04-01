@@ -1,0 +1,47 @@
+import systemUsers.StudentModel;
+
+public class Admin_Services {
+
+	private StudentModel record;
+	private CourseObject course;
+	
+	public void startSystem()
+	{
+		SystemState.state = 
+	}
+	
+	public void stopSystem()
+	{
+		
+	}
+	
+	public void createInstructor()
+	{
+		
+	}
+	
+	public void createStudent()
+	{
+		
+	}
+	
+	public void readStudentRecord(StudentModel student)
+	{
+		this.record = student;
+	}
+	
+	public void writeStudentRecord()
+	{
+		
+	}
+	
+	public void readCourseRecord(CourseObject course) 
+	{
+		this.course = course;
+	}
+	
+	public void writeCourseRecord()
+	{
+		
+	}
+}
